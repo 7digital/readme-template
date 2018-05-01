@@ -3,6 +3,7 @@ Brief text description of the main purpose of the repo / application in the cont
 
 ## Contents [if README is very large]
 1. [Getting Started](#getting-started)
+1. [Making Changes](#making-changes)
 1. [Architecture](#architecture)
 1. [General Operation](#general-operation)
 1. [Deployments](#deployments)
@@ -11,16 +12,20 @@ Brief text description of the main purpose of the repo / application in the cont
 1. [To Do](#to-do)
 
 ## Getting Started
-Step by step guide for getting the application set up for local development, including:
+Step by step guide for getting the application/project/tool set up for local development, including:
 - Installation dependencies
 - Any scripts or commands to run for local set up of the app
 - `make` (or similar) command for running tests
 
+## Making Changes (if applicable, i.e. if not fully obvious)
+If noteworthy, please detail the general flow of making changes (a nice example is here: https://github.com/7digital/chef-repo-disco#common-windows-dev-workflow).
+
 ## Architecture
-- Include lovely diagram here
+- Include your awesome diagrams here
+- Consider including relevant context of the app/tool/project
 
 ## General Operation
-- Operating considerations pertaining to how the app runs in production
+- Operating considerations pertaining to how the app/project/tool runs in production
 - Related applications / dependencies
 
 ## Deployments
@@ -31,7 +36,7 @@ Step by step guide for getting the application set up for local development, inc
     - CI pipeline
     - Specific deployment requirements
 
-NB: If the repo isn't itself a deployable app (libaries, deploy tools like Edamame etc.), please still point out the CI pipeline used to run automated tests for the project.
+NB: If the repo isn't itself a deployable app (libaries, deploy tools like [Edamame](https://github.com/7digital/edamame) etc.), please still point out the CI pipeline used to run automated tests for the project.
 
 ## Monitoring
 - Dashboards 
@@ -41,9 +46,11 @@ NB: If the repo isn't itself a deployable app (libaries, deploy tools like Edama
 - Pingdom
 
 ## Troubleshooting
+- RUNBOOK.MD - some nice examples for inspiration:
+    - https://github.com/7digital/previews-logging-api/blob/master/RUNBOOK.md
+    - https://github.com/7digital/streaming-data-platform/blob/master/RUNBOOK.md
+- FAQ, for example: https://github.com/7digital/search-api#troubleshooting
 - GOTCHAs and unresolved oddities
-- RUNBOOK.MD
-- FAQ
 
 ## To Do
 - WIP/info in case of newer repos or ongoing projects (i.e. cloud migrations)
