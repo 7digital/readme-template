@@ -18,7 +18,7 @@ Step by step guide for getting the application/project/tool set up for local dev
 - `make` (or similar) command for running tests
 
 ## Making Changes (if applicable, i.e. if not fully obvious)
-If noteworthy, please detail the general flow of making changes (a nice example is here: https://github.com/7digital/chef-repo-disco#common-windows-dev-workflow).
+If noteworthy, please detail the general flow of making changes (a nice example is this [workflow for making changes to a Chef Repo](https://github.com/7digital/chef-repo-disco#common-windows-dev-workflow)).
 
 ## Architecture
 - Include your awesome diagrams here
@@ -27,6 +27,8 @@ If noteworthy, please detail the general flow of making changes (a nice example 
 ## General Operation
 - Operating considerations pertaining to how the app/project/tool runs in production
 - Related applications / dependencies
+
+One example is the [General Operation section on the Solr indexers](https://github.com/7digital/solr-indexer-console#general-operation).
 
 ## Deployments
 - Where is it deployed?
@@ -46,10 +48,10 @@ NB: If the repo isn't itself a deployable app (libaries, deploy tools like [Edam
 - Pingdom
 
 ## Troubleshooting
-- RUNBOOK.MD - some nice examples for inspiration:
-    - https://github.com/7digital/previews-logging-api/blob/master/RUNBOOK.md
-    - https://github.com/7digital/streaming-data-platform/blob/master/RUNBOOK.md
-- FAQ, for example: https://github.com/7digital/search-api#troubleshooting
+- RUNBOOK.MD - some examples for inspiration:
+    - [Previews Logging API Runbook](https://github.com/7digital/previews-logging-api/blob/master/RUNBOOK.md)
+    - [Streaming Data Platform Runbook](https://github.com/7digital/streaming-data-platform/blob/master/RUNBOOK.md)
+- FAQ, for example: [Q&A on Search API](https://github.com/7digital/search-api#troubleshooting)
 - GOTCHAs and unresolved oddities
 
 ## To Do
