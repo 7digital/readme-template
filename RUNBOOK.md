@@ -15,3 +15,19 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 ### Owner
 
 ## System detail
+
+### Data and processing flows
+
+### Infrastructure and network design
+
+### Resilience
+
+### Scalability
+
+### Expected traffic and load
+
+## Monitoring and alerting
+
+## CI/CD
+
+## Known issues
