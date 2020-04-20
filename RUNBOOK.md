@@ -12,9 +12,14 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 
 ### Technical overview
 
-* 
+* HTTP-based API
 
 ### Service Level Agreements (SLAs)
+
+* Internal SLOs:
+  * 99.5% of calls in a monthly window return successful HTTP status codes.
+  * 99.5% of calls in a monthly window complete in less than 500 ms.
+* No client SLAs
 
 ### Dependencies
 
