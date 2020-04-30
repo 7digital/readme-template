@@ -59,6 +59,7 @@ TODO: Add diagram
 * Events are logged to the `app-error` SumoLogic source category.
 * Metrics logged to [DataDog](https://app.datadoghq.com/dashboard/hwj-6qq-rqi/downloading-api)
 * Application reports health via `/status` endpoint which ELB uses to determine if it should receive traffic.
+* Pingdom checks that a specific basket can be retrieved every minute. Will trigger SRE on-call if it fails twice in a row.
 
 ### Expected traffic and load
 
