@@ -73,6 +73,6 @@ TODO: Add diagram
 
 ## Known issues
 
-### Pingdom check fails
+### Pingdom check fails/flaps
 
-* Sometimes the application can deadlock. It can be fixed by restarting the EC2 instances of the cluster via the AWS EC2 console. Core Platform have a [ticket](https://example.com) open to investigate. 
+* Sometimes the application can deadlock. You can tell that it has deadlocked by finding the EC2 instance that has no CPU usage. It can be fixed by restarting the EC2 instance via the AWS EC2 console. Core Platform have a [ticket](https://example.com) open to investigate. 
