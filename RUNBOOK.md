@@ -47,7 +47,7 @@ TODO: Add diagram
 
 ### Infrastructure and network design
 
-TODO: Add diagram
+<img src="https://github.com/7digital/architecture-diagrams/blob/master/diagrams/example_api.svg" />
 
 ### Resilience
 
