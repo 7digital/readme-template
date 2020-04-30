@@ -23,21 +23,41 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 
 ### Dependencies
 
+* Purchasing API
+* Catalogue API
+* AWS DynamoDB
+
 ### Owner
+
+Core Platform Team
 
 ## System detail
 
 ### Data and processing flows
 
+TODO: Add diagram
+
 ### Infrastructure and network design
+
+TODO: Add diagram
 
 ### Resilience
 
+* Deployed into 2 AZs via auto-scaling groups managed by AWS Beanstalk
+* Circuit breakers & timeouts implemented on calls to 7digital API
+* Traffic is load balanced across multiple instances via an ELB.
+
 ### Scalability
+
+* Auto scaling is triggered by excessive CPU usage.
+* Manual scaling can be accomplished by configuring the auto-scaling group "min" property
+* Limited by 7digital API in the DC
+* Requests cannot be throttled.
+
+## Monitoring and alerting
 
 ### Expected traffic and load
 
-## Monitoring and alerting
 
 ## CI/CD
 
