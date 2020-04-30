@@ -2,6 +2,8 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 
 # Basket API Runbook (Example based on a fictional service)
 
+## Table of Contents
+
 1. [Overview](#overview)
 1. [System detail](#system-detail)
 1. [Monitoring and alerting](#Monitoring-and-alerting)
