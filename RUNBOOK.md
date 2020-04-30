@@ -56,9 +56,20 @@ TODO: Add diagram
 
 ## Monitoring and alerting
 
+* Events are logged to the `app-error` SumoLogic source category.
+* Metrics logged to [DataDog](https://app.datadoghq.com/dashboard/hwj-6qq-rqi/downloading-api)
+* Application reports health via `/status` endpoint which ELB uses to determine if it should receive traffic.
+
 ### Expected traffic and load
 
+* ~5 RPS UK evenings
+* ~2 RPS UK daytime
 
 ## CI/CD
 
+* Deployed via [TeamCity]
+* Rollback is accomplished by un-pinning the deployed "Build" and starting the "Deploy" build configuration.
+
 ## Known issues
+
+
