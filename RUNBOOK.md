@@ -43,7 +43,7 @@ Core Platform Team
 
 ### Data and processing flows
 
-TODO: Add diagram
+<img src="https://github.com/7digital/architecture-diagrams/blob/master/diagrams/example_api_flow.svg" />
 
 ### Infrastructure and network design
 
