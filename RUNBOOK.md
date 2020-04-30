@@ -32,7 +32,7 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 ### Dependencies
 
 * Purchasing API
-* Catalogue API
+* Locker API
 * AWS DynamoDB
 
 ### Owner
