@@ -73,4 +73,6 @@ TODO: Add diagram
 
 ## Known issues
 
+### Pingdom check fails
 
+* Sometimes the application can deadlock. It can be fixed by restarting the EC2 instances of the cluster via the AWS EC2 console. Core Platform have a [ticket](https://example.com) open to investigate. 
