@@ -48,9 +48,7 @@ NB: If the repo isn't itself a deployable app (libaries, deploy tools like [Edam
 - Pingdom
 
 ## Troubleshooting
-- RUNBOOK.MD - some examples for inspiration:
-    - [Previews Logging API Runbook](https://github.com/7digital/previews-logging-api/blob/master/RUNBOOK.md)
-    - [Streaming Data Platform Runbook](https://github.com/7digital/streaming-data-platform/blob/master/RUNBOOK.md)
+- [RUNBOOK.md](https://github.com/7digital/readme-template/blob/master/RUNBOOK.md)
 - FAQ, for example: [Q&A on Search API](https://github.com/7digital/search-api#troubleshooting)
 - GOTCHAs and unresolved oddities
 
