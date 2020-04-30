@@ -76,7 +76,7 @@ TODO: Add diagram
 
 ## CI/CD
 
-* Deployed via [TeamCity]
+* Deployed via [TeamCity](http://teamcity-london.prod.eu-central-1.7digital.net/project.html?projectId=CorePlatform_MediaDelivery_DownloadingAwsConsolidated_Downloading&tab=projectOverview)
 * Rollback is accomplished by un-pinning the deployed "Build" and starting the "Deploy" build configuration.
 
 ## Known issues
