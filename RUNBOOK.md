@@ -16,7 +16,7 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 
 * Allows our customers to add tracks or releases to a basket to be later available for purchase via the [7digital web store](https://uk.7digital.com).
 * Customers can pay for the contents of the basket, providing revenue for our D2C business.
-* The service should be highly available and process calls in a timely fashion to ensure the user experience does not put of people purchasing items.
+* The service should be highly available and process calls in a timely fashion to ensure the user experience does not discourage people purchasing items.
 
 ### Technical overview
 
