@@ -31,6 +31,8 @@ Based on [this template](https://docs.google.com/document/d/1h4y6cdCOkwr3tXHn5a_
 
 ### Dependencies
 
+Consult the [platform dependencies mapping diagram](https://github.com/7digital/architecture-diagrams/blob/master/docs/platform-dependencies.md)
+
 * Purchasing API
 * Locker API
 * AWS DynamoDB
