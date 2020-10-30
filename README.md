@@ -1,3 +1,34 @@
+# Copy-and-paste in markdown format
+```
+# Title
+
+## Contents [if README is very large]
+1. [Getting Started](#getting-started)
+1. [Making Changes](#making-changes)
+1. [Architecture](#architecture)
+1. [General Operation](#general-operation)
+1. [Deployments](#deployments)
+1. [Monitoring](#monitoring)
+1. [Troubleshooting](#troubleshooting)
+1. [To Do](#to-do)
+
+## Getting Started
+
+## Making Changes (if applicable, i.e. if not fully obvious)
+
+## Architecture
+
+## General Operation
+
+## Deployments
+
+## Monitoring
+
+## Troubleshooting
+
+## To Do
+```
+
 # Title
 Brief text description of the main purpose of the repo / application in the context of our platform.
 
